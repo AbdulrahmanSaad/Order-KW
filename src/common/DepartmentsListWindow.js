@@ -24,7 +24,7 @@ class DepartmentsListWindow extends Component {
             <View style={contentContainer}>
                 <ToolBar title={'الأقسام'} menuIcon />
                 <Text style={text}>
-                    يوجد {list.length} قسم بمتجرنا
+                    لدينا {list.length} قسم بمتجرنا
                 </Text>
                 <FlatList
                     data={list}
